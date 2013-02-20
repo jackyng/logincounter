@@ -1,0 +1,2 @@
+<h2>Welcome, <%=@user.username%>. You have logged in <%=pluralize(@user.count, 'time')%>.</h2>
+<%= link_to "Logout", :root, method: :post %>

@@ -1,0 +1,13 @@
+<h1>Please enter your credentials below</h1>
+
+<%= form_tag("/users/home") do %>
+
+	<%= label_tag :username, 'Username: ' %>
+	<%= text_field_tag :username %><br />
+
+	<%= label_tag :password, 'Password: ' %>
+	<%= password_field_tag :password %><br />
+
+	<%= submit_tag 'Login' %>
+	<%= submit_tag 'Add' %>
+<% end %>
