@@ -3,7 +3,7 @@ import unittest
 import json
 from httplib import HTTPConnection
 
-SERVER = "localhost:3000"
+SERVER = "fast-fortress-6544.herokuapp.com"
 
 class RestTestCase(unittest.TestCase):
     """Super class for each scenario"""
